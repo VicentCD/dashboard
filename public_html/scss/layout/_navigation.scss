@@ -1,0 +1,34 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4D5158;
+    border-bottom: 4px solid black;
+}
+
+.menu__item {
+    float: right;
+}
+
+.menu__item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    background-color: #111;
+}
+
+.menu__item--user:before {
+    font-family: FontAwesome;
+    content: "\f007";
+}
+
+.menu__item--out:before {
+    font-family: FontAwesome;
+    content: "\f08b";
+}
